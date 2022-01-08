@@ -1,12 +1,6 @@
-pipeline {
-    agent any
-    stages {
-        stage('run') {
-            steps {
-                echo 'Clarusway_Way to Reinvent Yourself.'
-                sh 'python --version'
-                sh 'python pipeline.py'
-            }
-        }
+public class Hello {
+
+    public static void main(String[] args) {
+        System.out.println("Hello from Java");
     }
 }
